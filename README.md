@@ -27,10 +27,16 @@ node baixar_csv
 node configurar_db_file
 ```
 
-5. Inicializar a aplicação:
+5. Importar dados do CSV para o db (SQLITE3)
 
 ```console
-node app_db_file
+node importar_db_file
+```
+
+6. Inicializar a aplicação:
+
+```console
+node iniciar_via_db_file
 ```
 
 
@@ -51,7 +57,7 @@ node baixar_csv
 4. Iniciar a aplicação (é feita a importação antes de inicializar a API): 
 
 ```console
-node app_db_memory
+node iniciar_via_db_memory
 ```
 
 # LICENÇA

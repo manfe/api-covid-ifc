@@ -22,4 +22,3 @@ c.connect({
     user: 'boavista',
     password: 'dados_abertos'
 });
-
