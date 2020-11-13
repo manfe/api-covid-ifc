@@ -1,0 +1,17 @@
+{
+  "name": "covid-ifc",
+  "version": "1.0.0",
+  "description": "Tratamento dos dados referente ao covid nas regionais onde encontra-se o IFC no estado de santa catarina.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauricio Natanael Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "ftp": "^0.3.10",
+    "sqlite3": "^5.0.0"
+  }
+}
